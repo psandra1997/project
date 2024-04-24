@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+
+  <header><h1 id="title">Survey Form</h1>
+    <p id="description">Thank you! Fill in the form fields and tell us which Coca Cola taste you prefer!</p>
+    </header>
+
+    <form id="survey-form">
+
+     <div class="form-div"> 
+
+<label id="name-label">Name: </label><input id="name" type="text" placeholder="Enter your name" class="form-control" required></div>
+      
+<div class="form-div"><label id="email-label">Email:</label> <input id="email"type="email"placeholder="Enter your email" class="form-control" required></div>
+
+<div class="form-div"><label id="number-label">Age (optional): </label><input id="number" type="number" placeholder="Enter your number" min="18" max="100" class="form-control"></div>
+
+<div class="form-div">
+<p>How many times you drink <i>Coca Cola</i></p>     
+<select id="dropdown" class="form-control">
+  
+<option value="everyday">Everyday</option>
+<option value="sometimes">Sometimes</option>
+<option value="rarely">Rarely</option>
+        </select>
+        </div>
+
+        <div class="form-div">
+         
+            <p>Taste which you prefer?</p>
+  <label><input type="radio" name="taste" value="original" class="input-radio" checked>Original</label>
+        <label><input type="radio" name="taste" value="cherry" class="input-radio">Cherry</label>
+       <label> <input type="radio" name="taste" value="vanilla" class="input-radio">Vanilla</label>
+       <label><input type="radio" name="taste" value="zero" class="input-radio">Zero Sugar</label>
+       
+</div>
+
+<div class="form-div">
+
+  <p>Select taste (one or more)</p>
+<label><input type="checkbox" value="1" class="input-checkbox">Original</label>
+<label><input type="checkbox" value="2" class="input-checkbox">Cherry</label>
+<label><input type="checkbox" value="3" class="input-checkbox">Cherry Vanilla</label>
+<label><input type="checkbox" value="4" class="input-checkbox">Vanilla</label>
+<label><input type="checkbox" value="5" class="input-checkbox">Cherry Zero Sugar</label>
+<label><input type="checkbox" value="6" class="input-checkbox">Cherry Vanilla Zero Sugar</label>
+<label><input type="checkbox" value="7" class="input-checkbox">Zero Sugar</label>
+</div>
+
+<div class="form-div">
+<p> Any comment:</p>
+<textarea placeholder="Comment" rows="5" cols="20" class="textarea"></textarea></div>
+
+<div class="form-div">
+  
+<input type="submit" id="submit" value="Submit" class="input-submit" required>
+
+</div>
+      </form>
+      </div>
+  </body>
+</html>
