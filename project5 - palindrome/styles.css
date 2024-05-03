@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+  }
+  body{
+    background-color:rgb(155,175,160);
+  }
+  .d1{
+  display:block;
+  align-items:space-between;
+  justify-content:center;
+  border:3px solid pink;
+  margin:20px auto;
+  padding:20px;
+  max-width:500px;
+  }
+  #text-input{
+    width:250px;
+    height:30px;
+    border-radius:10px;
+  }
+  #check-btn{
+    background-color:purple;
+    border:3px solid yellow;
+    border-radius:50px;
+    width:80px;
+    height:35px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    cursor:pointer;
+  }
+  #result{
+    display:block;
+    border:3px solid yellow;
+    color:white;
+    margin:20px auto;
+    padding:20px;
+    max-width:500px;
+  }
