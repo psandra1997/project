@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient( 70deg,pink,white, purple);
+    font-family:Verdana;
+}
+.container{
+    background-color:white;
+    border:10px solid grey;
+    width:100%;
+    max-width:500px;
+    height:100%;
+    display:block;
+    text-align:center;
+    flex-wrap: wrap;
+    margin:20px auto;
+}
+h2{
+    display:block;
+    text-align:center;
+    flex-wrap: wrap;
+    margin:20px auto;
+}
+.output{
+    display:block;
+    text-align:center;
+    flex-wrap: wrap;
+    margin:20px auto;
+}
